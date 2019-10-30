@@ -14,6 +14,8 @@ diaAtual= hoje.strftime("%d")
 dia = int(input("DIGITE O DIA DO NASCIMENTO: "))
 mes = int(input("DIGITE O MES DO NASCIMENTO: "))
 ano = int(input("DIGITE O ANO DO NASCIMENTO: "))
+if dia > 30:
+    dia = 30
 
 #converte data atual em InterruptedError
 anoAtual=int(anoAtual)
